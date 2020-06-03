@@ -5,7 +5,9 @@
 
 <generatorConfiguration>
 <!--    windows下路径, D:\downloads\xxx.jar-->
-    <classPathEntry location="/Users/admin/Desktop/mysql-connector-java-5.1.6.jar" />
+<!--    <classPathEntry location="/Users/admin/Desktop/mysql-connector-java-5.1.6.jar" />-->
+<!--    我的mysql-connector-java的位置-->
+    <classPathEntry location="F:\Github\pindongdong\doc\mysql-connector-java-5.1.6.jar" />
 
     <context id="DB2Tables" targetRuntime="MyBatis3">
 
@@ -47,6 +49,8 @@
 <!--            <columnOverride column="detail" jdbcType="VARCHAR" />-->
 <!--            <columnOverride column="sub_images" jdbcType="VARCHAR" />-->
 <!--        </table>-->
+
+<!--    表名修改 生成对应的代码     -->
         <table tableName="mall_shipping" domainObjectName="Shipping" enableCountByExample="false" enableDeleteByExample="false" enableSelectByExample="false" enableUpdateByExample="false"/>
 
     </context>

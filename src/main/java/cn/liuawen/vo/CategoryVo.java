@@ -5,7 +5,8 @@ import lombok.Data;
 import java.util.List;
 
 /**
- * Created by 廖师兄
+ * @author : Liu Awen Email:willowawen@gmail.com
+ * @create : 2020-03-05
  */
 @Data
 public class CategoryVo {
@@ -18,5 +19,8 @@ public class CategoryVo {
 
 	private Integer sortOrder;
 
+//	private List<CategoryVo> subCategories;
+
 	private List<CategoryVo> subCategories;
 }
+

@@ -13,10 +13,11 @@ import org.springframework.beans.factory.annotation.Autowired;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
-
 /**
- * Created by 廖师兄
+ * @author : Liu Awen Email:willowawen@gmail.com
+ * @create : 2020-03-04
  */
+
 @Slf4j
 public class CategoryServiceTest extends PindongdongApplicationTests {
 

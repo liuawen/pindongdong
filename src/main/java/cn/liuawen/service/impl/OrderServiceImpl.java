@@ -32,19 +32,20 @@ import java.util.stream.Collectors;
 @Service
 public class OrderServiceImpl implements IOrderService {
 
-    @Autowired(required = false)
+//    @Autowired(required = false)
+    @Autowired
     private ShippingMapper shippingMapper;
 
     @Autowired
     private ICartService cartService;
 
-    @Autowired(required = false)
+    @Autowired
     private ProductMapper productMapper;
 
-    @Autowired(required = false)
+    @Autowired
     private OrderMapper orderMapper;
 
-    @Autowired(required = false)
+    @Autowired
     private OrderItemMapper orderItemMapper;
 
     @Override
